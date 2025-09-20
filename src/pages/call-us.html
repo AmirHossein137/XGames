@@ -1,0 +1,3126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../output.css" />
+    <title>CallUs</title>
+  </head>
+  <body>
+    <div class="w-full max-w-[1300px] mx-auto lg:px-4 pb-8 mb-[95px] lg:mb-16">
+      <div class="hidden lg:flex header">
+      <div class="header-wrap !bg-[#232D3B]">
+        <a href="#">
+          <img
+            src="../../public/images/logo.png"
+            alt="Image"
+            width="41"
+            height="41"
+          />
+        </a>
+        <div class="item flex items-center gap-1 text-sm font-medium cursor-pointer">
+          <img src="../../public/images/ps.svg" alt="Image" />
+          <span>بازی‌های PS4,PS5</span>
+          <img src="../../public/images/arrow-down.svg" alt="Image" />
+        </div>
+        <div
+          class="item flex items-center gap-1 text-sm font-medium cursor-pointer"
+          data-target="subscription"
+        >
+          <img src="../../public/images/plus.svg" alt="Image" />
+          <span>اشتراک پلاس</span>
+          <img src="../../public/images/arrow-down.svg" alt="Image" />
+        </div>
+        <div class="flex items-center gap-1 text-sm font-medium cursor-pointer">
+          <img src="../../public/images/x-mag-2.svg" alt="Image" />
+          <span>ایکس مگ</span>
+        </div>
+        <div
+          class="item flex items-center gap-1 text-sm font-medium cursor-pointer"
+          data-target="gift"
+        >
+          <img src="../../public/images/gift-card.svg" alt="Image" />
+          <span> خرید گیفت کارت</span>
+          <img src="../../public/images/arrow-down.svg" alt="Image" />
+        </div>
+        <div
+          class="item flex items-center gap-1 text-sm font-medium cursor-pointer"
+          data-target="support"
+        >
+          <span>پشتیبانی</span>
+          <img src="../../public/images/arrow-down.svg" alt="Image" />
+        </div>
+        <div class="flex items-center gap-4 pl-4">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <path
+                d="M1.25 7.3235V11.0682C1.25 13.3902 1.25 14.552 1.8005 15.059C2.063 15.3013 2.3945 15.4535 2.74775 15.494C3.488 15.5788 4.35275 14.8137 6.0815 13.2845C6.8465 12.6087 7.22825 12.2705 7.67 12.182C7.8875 12.137 8.1125 12.137 8.33 12.182C8.7725 12.2705 9.15425 12.6087 9.9185 13.2845C11.6472 14.8137 12.512 15.5787 13.2523 15.4932C13.6048 15.4535 13.937 15.3013 14.1995 15.059C14.75 14.552 14.75 13.391 14.75 11.0682V7.32275C14.75 4.10675 14.75 2.49875 13.7615 1.499C12.773 0.49925 11.1815 0.5 8 0.5C4.8185 0.5 3.227 0.5 2.2385 1.499C1.63325 2.111 1.3985 2.9525 1.30775 4.25M10.25 3.5H5.75"
+                stroke="white"
+                stroke-linecap="round"
+              />
+            </svg>
+          </a>
+          <button class="relative basket">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="18"
+              viewBox="0 0 19 18"
+              fill="none"
+            >
+              <path
+                d="M9.07502 5.44444H16.4662C16.9974 5.44444 17.2626 5.44444 17.4573 5.53333C18.3174 5.93067 17.9332 6.92889 17.7887 7.64711C17.7753 7.712 17.7475 7.7727 17.7077 7.8244C17.6678 7.87609 17.617 7.91735 17.5593 7.94489C17.3209 8.0597 17.1124 8.23263 16.9512 8.44917C16.79 8.66571 16.6808 8.91953 16.6328 9.18933L16.1288 12.1893C15.9078 13.5093 15.8313 15.3947 14.7264 16.3244C13.9147 17 12.746 17 10.4078 17H8.59225C6.25488 17 5.08534 17 4.27449 16.3244C3.1687 15.3947 3.09305 13.5093 2.87122 12.1893L2.36719 9.18933C2.3192 8.91953 2.21002 8.66571 2.04881 8.44917C1.88761 8.23263 1.67908 8.0597 1.44074 7.94489C1.38298 7.91735 1.33215 7.87609 1.29231 7.8244C1.25247 7.7727 1.22472 7.712 1.21126 7.64711C1.06676 6.92978 0.682586 5.93067 1.54274 5.53422C1.73738 5.44444 2.00341 5.44444 2.53378 5.44444H5.67521M11.1999 9H7.80009M4.82526 8.11111L7.80009 1M12.0499 1L14.1747 5.44444"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="absolute w-[17px] h-[17px] bg-[#FF003C] rounded-full text-xs text-white -top-2 -right-2"
+            >
+              2
+            </div>
+            <div
+              class="absolute basket-drop w-[200px] p-3 bg-[#232D3B] top-[45px] transition-all duration-200 opacity-0 invisible left-0 rounded-br-lg rounded-bl-lg"
+            >
+              <div
+                class="w-full flex flex-col gap-4 border-b border-[#7490B7] pb-3 mb-3"
+              >
+                <div class="flex items-center justify-between">
+                  <img
+                    src="../../public/img/basket-1.svg"
+                    alt="Image"
+                    class="w-[46px] h-[46px] object-cover rounded-xl"
+                  />
+                  <div class="flex flex-col items-start gap-1">
+                    <span class="text-[10px]">ظرفیت دوم PS5</span>
+                    <div class="flex items-center gap-1">
+                      <span class="text-xs font-semibold">۱,۲۵۰,۰۰۰</span>
+                      <img
+                        src="../../public/images/toman.svg"
+                        alt="Image"
+                        class="w-[10px]"
+                      />
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="bg-[#ffffff40] rounded-full w-5 h-5 flex transition-all duration-150 hover:bg-[#FF3E71] items-center justify-center text-xl font-bold"
+                  >
+                    -
+                  </a>
+                </div>
+                <div class="flex items-center justify-between">
+                  <img
+                    src="../../public/img/basket-2.png"
+                    alt="Image"
+                    class="w-[46px] h-[46px] object-cover rounded-xl"
+                  />
+                  <div class="flex flex-col items-start gap-1">
+                    <span class="text-[10px]">ظرفیت دوم PS5</span>
+                    <div class="flex items-center gap-2">
+                      <div class="flex items-center gap-1">
+                        <span class="text-xs font-semibold">۱,۲۵۰,۰۰۰</span>
+                        <img
+                          src="../../public/images/toman.svg"
+                          alt="Image"
+                          class="w-[10px]"
+                        />
+                      </div>
+                      <span class="text-[#0066FF] text-xs">٪۵</span>
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="bg-[#ffffff40] rounded-full w-5 h-5 flex transition-all duration-150 hover:bg-[#FF3E71] items-center justify-center text-xl font-bold"
+                  >
+                    -
+                  </a>
+                </div>
+              </div>
+              <div
+                class="flex items-center justify-between text-xs font-semibold mb-2"
+              >
+                <span>مجموع تخفیف:</span>
+                <span class="text-[#0066FF]">-۴۵۶,۳۰۰</span>
+              </div>
+              <div
+                class="flex items-center justify-between text-xs font-semibold mb-2"
+              >
+                <span>مجموع سبد:</span>
+                <span>۳,۰۰۰,۰۰۰</span>
+              </div>
+              <a
+                href="#"
+                class="w-full h-[35px] flex items-center justify-center gap-1 rounded-lg"
+                style="
+                  background: linear-gradient(
+                    92deg,
+                    #4690ff 1.03%,
+                    #003d99 94.06%
+                  );
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="17"
+                  viewBox="0 0 18 17"
+                  fill="none"
+                >
+                  <path
+                    d="M14.667 8.5L10.417 4.25M14.667 8.5L10.417 12.75M14.667 8.5H7.22949M3.33366 8.5H5.10449"
+                    stroke="white"
+                    stroke-width="1.0625"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>تسویه حساب</span>
+              </a>
+            </div>
+          </button>
+          <button data-open-modal="loginModal" class="login-wrapper">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="18"
+              viewBox="0 0 15 18"
+              fill="none"
+            >
+              <path
+                d="M12.75 10.5C13.3467 10.5 13.919 10.7371 14.341 11.159C14.7629 11.581 15 12.1533 15 12.75V13.2862C15 15.969 11.8425 18 7.5 18C3.1575 18 0 16.0747 0 13.2862V12.75C0 12.1533 0.237053 11.581 0.65901 11.159C1.08097 10.7371 1.65326 10.5 2.25 10.5H12.75ZM12.75 11.625H2.25C1.97046 11.625 1.70092 11.7291 1.49392 11.9169C1.28692 12.1048 1.15727 12.363 1.13025 12.6412L1.125 12.75V13.2862C1.125 15.2917 3.66675 16.875 7.5 16.875C11.1945 16.875 13.7663 15.2962 13.872 13.407L13.875 13.2862V12.75C13.875 12.4705 13.7709 12.2009 13.5831 11.9939C13.3952 11.7869 13.137 11.6573 12.8588 11.6302L12.75 11.625ZM7.5 -1.43051e-06C8.09095 -1.43932e-06 8.67611 0.116394 9.22208 0.342541C9.76804 0.568687 10.2641 0.900154 10.682 1.31802C11.0998 1.73588 11.4313 2.23196 11.6575 2.77792C11.8836 3.32389 12 3.90905 12 4.5C12 5.09095 11.8836 5.67611 11.6575 6.22207C11.4313 6.76804 11.0998 7.26412 10.682 7.68198C10.2641 8.09984 9.76804 8.43131 9.22208 8.65746C8.67611 8.8836 8.09095 9 7.5 9C6.30653 9 5.16193 8.52589 4.31802 7.68198C3.47411 6.83807 3 5.69347 3 4.5C3 3.30652 3.47411 2.16193 4.31802 1.31802C5.16193 0.474104 6.30653 -1.41273e-06 7.5 -1.43051e-06ZM7.5 1.125C6.60489 1.125 5.74645 1.48058 5.11351 2.11351C4.48058 2.74645 4.125 3.60489 4.125 4.5C4.125 5.3951 4.48058 6.25355 5.11351 6.88648C5.74645 7.51942 6.60489 7.875 7.5 7.875C8.39511 7.875 9.25355 7.51942 9.88649 6.88648C10.5194 6.25355 10.875 5.3951 10.875 4.5C10.875 3.60489 10.5194 2.74645 9.88649 2.11351C9.25355 1.48058 8.39511 1.125 7.5 1.125Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="absolute mega-menu-content w-full mt-3 top-[100%] z-50 opacity-0 invisible"
+        >
+          <div class="mega-menu-wrapper grid grid-cols-12">
+            <div class="col-span-3 mega-menu-sidebar">
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <button
+                    data-id="platform"
+                    class="w-full menu-item rounded-[10px] active transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img
+                        src="../../public/images/m-platform.svg"
+                        alt="Image"
+                      />
+                      <span>براساس پلتفرم</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    data-id="zhanr"
+                    class="w-full menu-item rounded-[10px] transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img src="../../public/images/m-zhanr.svg" alt="Image" />
+                      <span>براساس ژانر</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    data-id="company"
+                    class="w-full menu-item rounded-[10px] transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img
+                        src="../../public/images/m-company.svg"
+                        alt="Image"
+                      />
+                      <span>براساس کمپانی سازنده</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    data-id="awards"
+                    class="w-full menu-item rounded-[10px] transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img src="../../public/images/m-awards.svg" alt="Image" />
+                      <span>براساس جوایز و مراسم</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    data-id="franchise"
+                    class="w-full menu-item rounded-[10px] transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img
+                        src="../../public/images/m-franchise.svg"
+                        alt="Image"
+                      />
+                      <span>براساس فرنچایز</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    data-id="subscription"
+                    class="w-full menu-item rounded-[10px] transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img
+                        src="../../public/images/m-subscription.svg"
+                        alt="Image"
+                      />
+                      <span>اشتراک ها</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    data-id="gift"
+                    class="w-full menu-item rounded-[10px] transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img src="../../public/images/m-gift.svg" alt="Image" />
+                      <span>گیفت کارت</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    data-id="support"
+                    class="w-full menu-item rounded-[10px] transition duration-200 bg-transparent flex items-center justify-between text-sm font-medium py-3 px-4"
+                  >
+                    <div class="flex items-center gap-2">
+                      <img
+                        src="../../public/images/m-support.svg"
+                        alt="Image"
+                      />
+                      <span>رضایت و پشتیبانی</span>
+                    </div>
+                    <img src="../../public/images/m-arrow.svg" alt="Image" />
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="col-span-9">
+              <div
+                data-content="platform"
+                class="menu-content flex items-center justify-center"
+              >
+                <div class="w-[90%] mx-auto grid grid-cols-3 gap-5">
+                  <div
+                    class="flex flex-col items-center gap-5 px-5 pb-4 bg-[#232D3B] rounded-xl"
+                  >
+                    <div class="-mt-[60px]">
+                      <img src="../../public/images/vr.svg" alt="Image" />
+                    </div>
+                    <span class="text-sm font-medium text-center"
+                      >خرید اکانت اشتراکی و قانونی بازی های</span
+                    >
+                    <img src="../../public/images/vr-small.svg" alt="Image" />
+                    <div class="flex items-center gap-3">
+                      <span>مشاهده بازی ها</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col items-center gap-5 px-5 pb-4 bg-[#232D3B] rounded-xl"
+                  >
+                    <div class="-mt-[60px]">
+                      <img src="../../public/images/ps4.svg" alt="Image" />
+                    </div>
+                    <span class="text-sm font-medium text-center"
+                      >خرید اکانت اشتراکی و قانونی بازی های</span
+                    >
+                    <img src="../../public/images/ps4-small.svg" alt="Image" />
+                    <div class="flex items-center gap-3">
+                      <span>مشاهده بازی ها</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col items-center gap-5 px-5 pb-4 bg-[#232D3B] rounded-xl"
+                  >
+                    <div class="-mt-[60px]">
+                      <img src="../../public/images/ps-5.svg" alt="Image" />
+                    </div>
+                    <span class="text-sm font-medium text-center"
+                      >خرید اکانت اشتراکی و قانونی بازی های</span
+                    >
+                    <img src="../../public/images/ps5-small.svg" alt="Image" />
+                    <div class="flex items-center gap-3">
+                      <span>مشاهده بازی ها</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-content="zhanr" class="menu-content hidden">
+                <div class="w-full py-4">
+                  <div class="w-full relative grid grid-cols-4 gap-2">
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-role-playing.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >نقش آفرینی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-shooter.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >تیراندازی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-fear.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >ترس و وحشت</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-fantasy.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >فانتری و تخیلی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-combative.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >مبارزه‌ای</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-open-world.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >جهان باز</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-military.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >نظامی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-adventure.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >ماجراجویی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-superhero.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >ابرقهرمانی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-fun.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >فان و کژوال</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-simulation.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >شبیه سازی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-family.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >خانوادگی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-sport.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >ورزشی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-orcide.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >آرکید</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-two.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >دو نفره</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-online.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >آنلاین و رقابتی</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-drive.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >رانندگی و مسابقه</span
+                      >
+                    </a>
+                    <a href="#" class="relative block w-full">
+                      <img
+                        src="../../public/images/zhanr-hide.webp"
+                        alt="Image"
+                        class="w-full"
+                      />
+                      <span class="absolute bottom-3 left-4 text-sm font-bold"
+                        >مخفی کاری</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-content="company" class="menu-content hidden">
+                <div class="grid grid-cols-5 gap-[6px] pt-10">
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-marvel.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">بازی های مارول</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-warner.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">برادران وارنر</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-ubisoft.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">یوبی‌ سافت</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-rockstar.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">راک استار</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-EA.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">الکترونیک آرتز</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-kojima.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">استدیو کوجیما</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-cd-project.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">سی‌دی پراجکت</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-santa.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">سانتا مونیکا</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-naughty.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">ناتی داگ</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-konami.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">کونامی</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-activision.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">اکتیویژن</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-blizzard.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">بیلزارد</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-2k.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">توکی</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/company-epic.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">اپیک گیمز</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div data-content="awards" class="menu-content hidden">
+                <div
+                  class="flex flex-col items-center justify-center w-[90%] mx-auto pt-14 pb-8"
+                >
+                  <div class="w-full grid grid-cols-3 gap-3 mb-4">
+                    <div
+                      class="flex flex-col items-center bg-[#232D3B] rounded-xl px-5 pb-4"
+                    >
+                      <div class="-mt-8">
+                        <img
+                          src="../../public/images/winner-years.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <span>2025 - 2010</span>
+                      <span>برندگان بازی سال</span>
+                      <a href="#" class="flex items-center gap-3 mt-4">
+                        <span>مشاهده بازی ها</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 18 18"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                            fill="white"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div
+                      class="flex flex-col items-center bg-[#232D3B] rounded-xl px-5 pb-4"
+                    >
+                      <div class="-mt-8">
+                        <img
+                          src="../../public/images/winner-zhanr.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <span>2025 - 2010</span>
+                      <span>برندگان بازی سال</span>
+                      <a href="#" class="flex items-center gap-3 mt-4">
+                        <span>مشاهده بازی ها</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 18 18"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                            fill="white"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div
+                      class="flex flex-col items-center bg-[#232D3B] rounded-xl px-5 pb-4"
+                    >
+                      <div class="-mt-8">
+                        <img
+                          src="../../public/images/candidates-year.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <span>2025 - 2010</span>
+                      <span>برندگان بازی سال</span>
+                      <a href="#" class="flex items-center gap-3 mt-4">
+                        <span>مشاهده بازی ها</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 18 18"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                            fill="white"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full grid grid-cols-12 gap-3">
+                    <div class="col-span-8">
+                      <div class="selected-wrap">
+                        <div>
+                          <img
+                            src="../../public/images/selected.png"
+                            alt="Image"
+                          />
+                        </div>
+                        <div class="flex flex-col gap-1">
+                          <span class="font-bold"
+                            >بازی ها منتخب پلی استیشن</span
+                          >
+                          <a href="#" class="flex items-center gap-3">
+                            <span>مشاهده بازی ها</span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="18"
+                              height="18"
+                              viewBox="0 0 18 18"
+                              fill="none"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                                fill="white"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-span-4">
+                      <div
+                        class="w-full h-full flex items-center justify-center rounded-xl bg-[#232D3B]"
+                      >
+                        <img src="../../public/images/bafta.png" alt="Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-content="franchise" class="menu-content hidden">
+                <div class="grid grid-cols-5 gap-[6px] pt-10">
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-assassin.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">اساسینز کرید</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-callof.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">ندای وظیفه</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-evil.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">رزیدنت ایول</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-battlefield.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">بتلفیلد</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-dark-souls.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">دارک سولز</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-final-fantasy.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">فاینال فانتزی</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-devil-mac-cry.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">دویل می کرای</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-nfs.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">جنون سرعت</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-gta.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">جی تی ای</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-farcry.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">فارکرای</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-dead.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">جزیره‌ی مردگان</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-fallout.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">فال اوت</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-balder.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">بالدرگیت</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-monster.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">شکارچیان هیولا</span>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+                  >
+                    <div class="h-2/3 flex items-center justify-center">
+                      <img
+                        src="../../public/images/franchise-star-war.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="h-1/3">
+                      <span class="text-sm font-semibold">جنگ ستارگان</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div data-content="subscription" class="menu-content hidden">
+                <div class="flex flex-col gap-7 py-10">
+                  <a
+                    href="#"
+                    class="subscription-wrap essential text-xl font-bold"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span>خرید اشتراک پلاس اسنشیال</span>
+                      <div class="flex items-center gap-3">
+                        <span>Essential</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="23"
+                          height="24"
+                          viewBox="0 0 23 24"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M7.91095 1.17962C10.2716 0.606792 12.7284 0.606792 15.0891 1.17962C18.4982 2.00687 21.16 4.76052 21.9597 8.28719C22.5134 10.7293 22.5134 13.2707 21.9597 15.7128C21.16 19.2395 18.4982 21.9931 15.0891 22.8204C12.7284 23.3932 10.2716 23.3932 7.91095 22.8204C4.50184 21.9931 1.83997 19.2395 1.0403 15.7128C0.486565 13.2707 0.486565 10.7293 1.0403 8.28718C1.83997 4.76051 4.50183 2.00687 7.91095 1.17962ZM13.1474 9.51612C13.4185 9.23574 13.4185 8.78115 13.1474 8.50077C12.8764 8.22039 12.437 8.22039 12.1659 8.50077L9.27413 11.4923C9.14398 11.6269 9.07086 11.8096 9.07086 12C9.07086 12.1904 9.14398 12.373 9.27413 12.5076L12.1659 15.4992C12.437 15.7795 12.8764 15.7795 13.1474 15.4992C13.4185 15.2188 13.4185 14.7642 13.1474 14.4838L10.7464 12L13.1474 9.51612Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="-mt-12">
+                      <img
+                        src="../../public/images/subscription-plus.png"
+                        alt="Image"
+                      />
+                    </div>
+                  </a>
+                  <a href="#" class="subscription-wrap extra text-xl font-bold">
+                    <div class="flex flex-col gap-2">
+                      <span class="text-[#242424]"
+                        >خرید اشتراک پلاس اکسترا</span
+                      >
+                      <div class="flex items-center gap-3">
+                        <span class="text-[#242424]">Extra</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="23"
+                          height="24"
+                          viewBox="0 0 23 24"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M7.91095 1.17962C10.2716 0.606792 12.7284 0.606792 15.0891 1.17962C18.4982 2.00687 21.16 4.76052 21.9597 8.28719C22.5134 10.7293 22.5134 13.2707 21.9597 15.7128C21.16 19.2395 18.4982 21.9931 15.0891 22.8204C12.7284 23.3932 10.2716 23.3932 7.91095 22.8204C4.50184 21.9931 1.83997 19.2395 1.0403 15.7128C0.486565 13.2707 0.486565 10.7293 1.0403 8.28718C1.83997 4.76051 4.50183 2.00687 7.91095 1.17962ZM13.1474 9.51612C13.4185 9.23574 13.4185 8.78115 13.1474 8.50077C12.8764 8.22039 12.437 8.22039 12.1659 8.50077L9.27413 11.4923C9.14398 11.6269 9.07086 11.8096 9.07086 12C9.07086 12.1904 9.14398 12.373 9.27413 12.5076L12.1659 15.4992C12.437 15.7795 12.8764 15.7795 13.1474 15.4992C13.4185 15.2188 13.4185 14.7642 13.1474 14.4838L10.7464 12L13.1474 9.51612Z"
+                            fill="#322E26"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="-mt-12">
+                      <img
+                        src="../../public/images/subscription-plus.png"
+                        alt="Image"
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="subscription-wrap premium text-xl font-bold"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span class="text-[#FCB800]"
+                        >خرید اشتراک پلاس پرمیوم</span
+                      >
+                      <div class="flex items-center gap-3">
+                        <span class="text-[#FCB800]">Premium</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="23"
+                          height="24"
+                          viewBox="0 0 23 24"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M7.91095 1.17962C10.2716 0.606792 12.7284 0.606792 15.0891 1.17962C18.4982 2.00687 21.16 4.76052 21.9597 8.28719C22.5134 10.7293 22.5134 13.2707 21.9597 15.7128C21.16 19.2395 18.4982 21.9931 15.0891 22.8204C12.7284 23.3932 10.2716 23.3932 7.91095 22.8204C4.50184 21.9931 1.83997 19.2395 1.0403 15.7128C0.486565 13.2707 0.486565 10.7293 1.0403 8.28718C1.83997 4.76051 4.50183 2.00687 7.91095 1.17962ZM13.1474 9.51612C13.4185 9.23574 13.4185 8.78115 13.1474 8.50077C12.8764 8.22039 12.437 8.22039 12.1659 8.50077L9.27413 11.4923C9.14398 11.6269 9.07086 11.8096 9.07086 12C9.07086 12.1904 9.14398 12.373 9.27413 12.5076L12.1659 15.4992C12.437 15.7795 12.8764 15.7795 13.1474 15.4992C13.4185 15.2188 13.4185 14.7642 13.1474 14.4838L10.7464 12L13.1474 9.51612Z"
+                            fill="#FCB800"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="-mt-12">
+                      <img
+                        src="../../public/images/subscription-plus.png"
+                        alt="Image"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div data-content="gift" class="menu-content hidden">
+                <div class="w-full h-full flex items-center justify-center">
+                  <div class="grid grid-cols-5 gap-5">
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                    <a href="#" class="block w-full">
+                      <img
+                        src="../../public/images/gift-img.png"
+                        alt="Image"
+                        class="w-full"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-content="support" class="menu-content hidden">
+                <div class="w-full h-full py-9">
+                  <div class="w-full h-full grid grid-cols-3 gap-3">
+                    <a
+                      href="#"
+                      class="w-full flex flex-col items-center justify-center gap-4 bg-[#232D3B] rounded-xl"
+                    >
+                      <img
+                        src="../../public/images/support-faq.png"
+                        alt="Image"
+                      />
+                      <div href="#" class="flex items-center gap-3 mt-4">
+                        <span>سوالات متداول</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 18 18"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                            fill="white"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a
+                      href="#"
+                      class="w-full flex flex-col items-center justify-center gap-4 bg-[#232D3B] rounded-xl"
+                    >
+                      <img
+                        src="../../public/images/Support-Icon.png"
+                        alt="Image"
+                        class="w-[90px]"
+                      />
+                      <div href="#" class="flex items-center gap-3 mt-4">
+                        <span>تیکت و پشتیبانی</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 18 18"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                            fill="white"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" class="relative w-full flex">
+                      <img
+                        src="../../public/images/support-practice.png"
+                        alt="Image"
+                        class="w-full h-[215px] rounded-xl object-cover"
+                      />
+                      <div class="absolute bottom-8 left-1/2 -translate-x-1/2">
+                        <div class="flex items-center gap-3 mt-4">
+                          <span>آموزش ها</span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                              fill="white"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      href="#"
+                      class="w-full flex flex-col items-center justify-center gap-4 bg-[#232D3B] rounded-xl"
+                    >
+                      <img
+                        src="../../public/images/support-customer.png"
+                        alt="Image"
+                      />
+                      <div href="#" class="flex items-center gap-3 mt-4">
+                        <span>سوالات متداول</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 18 18"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                            fill="white"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                    <div
+                      class="relative z-20 w-full flex flex-col items-center justify-center gap-4 bg-[#232D3B] rounded-xl"
+                    >
+                      <div
+                        class="absolute z-[-1] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-full"
+                      >
+                        <img
+                          src="../../public/images/support-x.png"
+                          alt="Image"
+                          class="w-full h-full"
+                        />
+                      </div>
+                      <div class="flex flex-col gap-2">
+                        <div class="flex items-center gap-2">
+                          <a href="#" class="social youtube">
+                            <img
+                              src="../../public/images/youtube.svg"
+                              alt="Instagram"
+                            />
+                          </a>
+                          <a href="#" class="social aparat">
+                            <img
+                              src="../../public/images/aparat.svg"
+                              alt="Instagram"
+                            />
+                          </a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                          <a href="#" class="social insta">
+                            <img
+                              src="../../public/images/instagram.svg"
+                              alt="Instagram"
+                            />
+                          </a>
+                          <a href="#" class="social telegram">
+                            <img
+                              src="../../public/images/telegram.svg"
+                              alt="Instagram"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <a href="#" class="flex items-center gap-3 mt-4">
+                        <span>راه های ارتباطی با ما</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 18 18"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.02975 0.343699C7.9834 -0.114566 10.0166 -0.114566 11.9703 0.343699C14.7916 1.00549 16.9945 3.20842 17.6563 6.02975C18.1146 7.9834 18.1146 10.0166 17.6563 11.9703C16.9945 14.7916 14.7916 16.9945 11.9703 17.6563C10.0166 18.1146 7.9834 18.1146 6.02975 17.6563C3.20842 16.9945 1.0055 14.7916 0.3437 11.9703C-0.114567 10.0166 -0.114567 7.9834 0.3437 6.02974C1.0055 3.20841 3.20842 1.00549 6.02975 0.343699ZM10.3634 7.0129C10.5877 6.78859 10.5877 6.42492 10.3634 6.20062C10.1391 5.97631 9.77542 5.97631 9.55112 6.20062L7.1579 8.59383C7.05019 8.70155 6.98967 8.84764 6.98967 8.99997C6.98967 9.15231 7.05019 9.2984 7.1579 9.40612L9.55112 11.7993C9.77542 12.0236 10.1391 12.0236 10.3634 11.7993C10.5877 11.575 10.5877 11.2114 10.3634 10.987L8.37633 8.99997L10.3634 7.0129Z"
+                            fill="white"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <a href="#" class="w-full flex h-[215px]">
+                      <img
+                        src="../../public/images/support-buy.png"
+                        alt="Image"
+                        class="w-full h-full object-cover rounded-xl"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="grid grid-cols-12 items-center">
+        <div class="col-span-full px-4 lg:px-0 -mt-[200px] lg:mt-0 lg:col-span-7 relative z-20 flex flex-col gap-9 order-2 lg:order-1">
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <a
+              href="#"
+              class="w-full flex flex-col bg-[#232D3B] h-[180px] rounded-xl items-center justify-center gap-5 transition duration-200 hover:scale-105"
+            >
+              <div class="social insta">
+                <img src="../../public/images/instagram.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <span class="font-semibold">اینستاگرام</span>
+                <span>@xgames</span>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="w-full flex flex-col bg-[#232D3B] h-[180px] rounded-xl items-center justify-center gap-5 transition duration-200 hover:scale-105"
+            >
+              <div class="social telegram">
+                <img src="../../public/images/telegram.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <span class="font-semibold">تلگرام</span>
+                <span>@xgames</span>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="w-full flex flex-col bg-[#232D3B] h-[180px] rounded-xl items-center justify-center gap-5 transition duration-200 hover:scale-105"
+            >
+              <div class="social gmail">
+                <img src="../../public/images/gmail.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <span class="font-semibold">ایمیل سازمانی</span>
+                <span>info@xgames.com</span>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="w-full flex flex-col bg-[#232D3B] h-[180px] rounded-xl items-center justify-center gap-5 transition duration-200 hover:scale-105"
+            >
+              <div class="social youtube">
+                <img src="../../public/images/youtube.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <span class="font-semibold">یوتیوب</span>
+                <span>@xgames</span>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="w-full flex flex-col bg-[#232D3B] h-[180px] rounded-xl items-center justify-center gap-5 transition duration-200 hover:scale-105"
+            >
+              <div class="social aparat">
+                <img src="../../public/images/aparat.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <span class="font-semibold">آپارارت</span>
+                <span>@xgames</span>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="w-full flex flex-col bg-[#232D3B] h-[180px] rounded-xl items-center justify-center gap-5 transition duration-200 hover:scale-105"
+            >
+              <div class="social linkedin">
+                <img src="../../public/images/linkedin.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <span class="font-semibold">لینکدین</span>
+                <span>@xgames</span>
+              </div>
+            </a>
+          </div>
+          <div class="flex items-center flex-col md:flex-row gap-1">
+            <span class="font-bold">ساعات پاسخ‌گویی پشتیبانی:</span>
+            <span class="font-light text-sm"
+              >هر روز از ساعت ۱۰ صبح تا ۱۲ شب (پاسخ‌گویی حتی در روزهای
+              تعطیل)</span
+            >
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <a
+              href="#"
+              class="bg-[#232D3B] rounded-2xl p-4 flex items-center gap-3"
+            >
+              <div class="social telegram">
+                <img src="../../public/images/telegram.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col gap-1">
+                <span class="font-semibold">تلگرام پشتیبانی </span>
+                <span class="text-[#789CE4] font-medium text-sm"
+                  >۰۹۳۰ ۵۲۰ ۰۹۱۴</span
+                >
+              </div>
+            </a>
+            <a
+              href="#"
+              class="bg-[#232D3B] rounded-2xl p-4 flex items-center gap-3"
+            >
+              <div class="social telegram">
+                <img src="../../public/images/telegram.svg" alt="Instagram" />
+              </div>
+              <div class="flex flex-col gap-1">
+                <span class="font-semibold">تلگرام مدیریت </span>
+                <span class="text-[#789CE4] font-medium text-sm"
+                  >۰۹۹۸ ۱۱۰ ۲۸۸۳</span
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-span-full lg:col-span-5 relative order-1 lg:order-2">
+          <div class="flex items-center justify-center">
+            <img src="../../public/images/call-us-x.png" alt="Image" class="lg:w-full rounded-[50px] lg:rounded-none"/>
+          </div>
+          
+          <div
+            class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-5"
+          >
+            <img src="../../public/images/call-us-logo.png" alt="Image" />
+            <span class="text-4xl font-bold">راه های ارتباطی</span>
+            <div class="flex flex-col items-center w-[90%] gap-2">
+              <span class="text-sm"
+                >ما همیشه سعی کردیم پشتیبانی‌مون، دلیل اول اعتماد مشتریامون
+                باشه.
+              </span>
+              <span class="text-sm text-center"
+                >در صورت وجود هرگونه سوال، مشکل یا نیاز به راهنمایی، تیم ما با
+                صبوری و دقت همراهت خواهد بود.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div class="header-mobile header-mobile-others lg:hidden">
+      <button class="humber-menu">
+        <img src="../../public/images/menu-humberger.svg" alt="Image" />
+      </button>
+      <a href="#">
+        <img src="../../public/images/mobile-logo.svg" alt="Image" />
+      </a>
+      <a href="#">
+        <img src="../../public/images/mobile-call-us.svg" alt="Image" />
+      </a>
+    </div>
+
+    <!--- Humber Menu Content -->
+    <div
+      class="menu-panel fixed p-10 top-0 right-0 h-full w-[360px] bg-[#15202B] shadow-lg transform translate-x-full transition-transform duration-300 rounded-tl-3xl rounded-bl-3xl"
+      style="z-index: 200"
+    >
+      <ul class="flex flex-col gap-10">
+        <li>
+          <a href="#1" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-dash.svg" alt="Image" />
+            <span>داشبورد</span>
+          </a>
+        </li>
+        <li>
+          <button
+            class="menu-toggle flex items-center gap-5 text-xl font-medium"
+          >
+            <img src="../../public/images/humber-category.svg" alt="Image" />
+            <span>دسته‌بندی</span>
+          </button>
+        </li>
+        <li>
+          <a href="#3" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-order.svg" alt="Image" />
+            <span>سفارشات</span>
+          </a>
+        </li>
+        <li>
+          <a href="#4" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-awards.svg" alt="Image" />
+            <span>جوایز و امتیاز</span>
+          </a>
+        </li>
+        <li>
+          <a href="#5" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-moneyBag.svg" alt="Image" />
+            <span>کیف پول من</span>
+          </a>
+        </li>
+        <li>
+          <a href="#6" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-favorites.svg" alt="Image" />
+            <span>محصول ذخیره شده</span>
+          </a>
+        </li>
+        <li>
+          <a href="#7" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-faq.svg" alt="Image" />
+            <span>سوالات متداول</span>
+          </a>
+        </li>
+        <li>
+          <a href="#8" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-practice.svg" alt="Image" />
+            <span>آموزش ها</span>
+          </a>
+        </li>
+        <li>
+          <a href="#9" class="flex items-center gap-5 text-xl font-medium">
+            <img
+              src="../../public/images/humber-satisfaction.svg"
+              alt="Image"
+            />
+            <span>رضایت مشتریان</span>
+          </a>
+        </li>
+        <li>
+          <a href="#10" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-help.svg" alt="Image" />
+            <span>قوانین و راهنمای خرید</span>
+          </a>
+        </li>
+        <!--- Not LoggedIn -->
+        <li class="hidden">
+          <button
+            class="w-full h-[54px] rounded-xl"
+            style="background: linear-gradient(92deg, #1d2f4b 0.31%, #06f 100%)"
+          >
+            ثبت نام | ورود
+          </button>
+        </li>
+        <!--- LoggedIn -->
+        <li>
+          <a href="#11" class="flex items-center gap-5 text-xl font-medium">
+            <img src="../../public/images/humber-exit.svg" alt="Image" />
+            <span>خروج از حساب کاربری</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Category Content -->
+    <div
+      class="offcanvas-panel fixed inset-0 pt-9 bg-[#15202B] text-white transform translate-x-full transition-transform duration-300"
+    >
+      <!-- دکمه بستن -->
+      <button
+        class="close-btn absolute top-4 left-5 text-white text-3xl font-bold"
+      >
+        &times;
+      </button>
+      <!-- محتوای منو -->
+      <div class="p-4 flex h-full gap-4">
+        <div class="flex flex-col h-full">
+          <nav
+            class="flex flex-col h-full items-center gap-4 border-l pl-3 border-[#2E3B4D] mobile-menu-wrapper pb-2"
+            aria-label="Tabs"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <button
+              type="button"
+              class="active flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-1"
+              aria-selected="true"
+              data-hs-tab="#item-1"
+              aria-controls="item-1"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-platform.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">براساس پلتفرم</span>
+            </button>
+            <button
+              type="button"
+              class="flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-2"
+              aria-selected="false"
+              data-hs-tab="#item-2"
+              aria-controls="item-2"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-zhanr.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">براساس ژانر</span>
+            </button>
+            <button
+              type="button"
+              class="flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-3"
+              aria-selected="false"
+              data-hs-tab="#item-3"
+              aria-controls="item-3"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-company.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">براساس کمپانی </span>
+            </button>
+            <button
+              type="button"
+              class="flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-4"
+              aria-selected="false"
+              data-hs-tab="#item-4"
+              aria-controls="item-4"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-throphy.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">براساس جوایز</span>
+            </button>
+            <button
+              type="button"
+              class="flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-5"
+              aria-selected="false"
+              data-hs-tab="#item-5"
+              aria-controls="item-5"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-franchaiz.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">براساس فرنچایز</span>
+            </button>
+            <button
+              type="button"
+              class="flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-6"
+              aria-selected="false"
+              data-hs-tab="#item-6"
+              aria-controls="item-6"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-subscriptions.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">اشتراک ها</span>
+            </button>
+            <button
+              type="button"
+              class="flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-7"
+              aria-selected="false"
+              data-hs-tab="#item-7"
+              aria-controls="item-7"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-gift-cart.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">گیفت کارت</span>
+            </button>
+            <button
+              type="button"
+              class="flex flex-col items-center justify-center gap-3 rounded-[10px] w-[77px] h-[79px]"
+              id="tab-item-8"
+              aria-selected="false"
+              data-hs-tab="#item-8"
+              aria-controls="item-8"
+              role="tab"
+            >
+              <img
+                src="../../public/images/menu-mobile-support.svg"
+                alt="Image"
+              />
+              <span class="text-[10px] font-medium">پشتیبانی</span>
+            </button>
+          </nav>
+        </div>
+        <div class="w-full h-full flex-1">
+          <div
+            id="item-1"
+            class="h-full overflow-y-auto flex flex-col items-center justify-center gap-16"
+            role="tabpanel"
+            aria-labelledby="tab-item-1"
+          >
+            <a
+              href="#"
+              class="bg-[#232D3B] flex p-3 w-full relative rounded-[10px] h-[109px]"
+            >
+              <div class="flex flex-col gap-7">
+                <span class="text-xs font-medium"
+                  >خرید اکانت اشتراکی و قانونی بازی های</span
+                >
+                <img
+                  src="../../public/images/menu-mobile-ps5.svg"
+                  alt="Image"
+                  width="66"
+                />
+              </div>
+              <div class="absolute left-4 bottom-0">
+                <img
+                  src="../../public/images/menu-content-ps5.png"
+                  alt="Image"
+                />
+              </div>
+            </a>
+            <a
+              href="#"
+              class="bg-[#232D3B] flex p-3 w-full relative rounded-[10px] h-[109px]"
+            >
+              <div class="flex flex-col gap-7">
+                <span class="text-xs font-medium"
+                  >خرید اکانت اشتراکی و قانونی بازی های</span
+                >
+                <img
+                  src="../../public/images/menu-mobile-ps4.svg"
+                  alt="Image"
+                  width="66"
+                />
+              </div>
+              <div class="absolute left-4 bottom-0">
+                <img
+                  src="../../public/images/menu-content-ps4.png"
+                  alt="Image"
+                />
+              </div>
+            </a>
+            <a
+              href="#"
+              class="bg-[#232D3B] flex p-3 w-full relative rounded-[10px] h-[109px]"
+            >
+              <div class="flex flex-col gap-7">
+                <span class="text-xs font-medium"
+                  >خرید اکانت اشتراکی و قانونی بازی های</span
+                >
+                <img
+                  src="../../public/images/menu-mobile-vr.svg"
+                  alt="Image"
+                  width="66"
+                />
+              </div>
+              <div class="absolute left-4 bottom-0">
+                <img
+                  src="../../public/images/menu-content-vr.png"
+                  alt="Image"
+                />
+              </div>
+            </a>
+          </div>
+          <div
+            id="item-2"
+            class="hidden h-full pl-5 overflow-y-auto"
+            role="tabpanel"
+            aria-labelledby="tab-item-2"
+          >
+            <div class="w-full grid grid-cols-1 gap-2 gap-y-3">
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-role-playing.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-xs font-bold"
+                  >نقش آفرینی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-shooter.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >تیراندازی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-fear.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >ترس و وحشت</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-fantasy.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >فانتری و تخیلی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-combative.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >مبارزه‌ای</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-open-world.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >جهان باز</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-military.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >نظامی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-adventure.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >ماجراجویی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-superhero.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >ابرقهرمانی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-fun.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >فان و کژوال</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-simulation.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >شبیه سازی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-family.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >خانوادگی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-sport.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >ورزشی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-orcide.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >آرکید</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-two.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >دو نفره</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-online.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >آنلاین و رقابتی</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-two.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >دو نفره</span
+                >
+              </a>
+              <a href="#" class="relative block w-full">
+                <img
+                  src="../../public/images/zhanr-hide.png"
+                  alt="Image"
+                  class="w-full"
+                />
+                <span class="absolute bottom-6 left-4 text-sm font-bold"
+                  >مخفی کاری</span
+                >
+              </a>
+            </div>
+          </div>
+          <div
+            id="item-3"
+            class="hidden h-full overflow-y-auto"
+            role="tabpanel"
+            aria-labelledby="tab-item-3"
+          >
+            <div class="grid grid-cols-2 gap-[6px]">
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-marvel.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">بازی های مارول</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-warner.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">برادران وارنر</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-ubisoft.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">یوبی‌ سافت</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-rockstar.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">راک استار</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img src="../../public/images/company-EA.png" alt="Image" />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">الکترونیک آرتز</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-kojima.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">استدیو کوجیما</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-cd-project.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">سی‌دی پراجکت</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-santa.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">سانتا مونیکا</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-naughty.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">ناتی داگ</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-konami.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">کونامی</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-activision.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">اکتیویژن</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/company-blizzard.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">بیلزارد</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img src="../../public/images/company-2k.png" alt="Image" />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">توکی</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-5"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img src="../../public/images/company-epic.png" alt="Image" />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">اپیک گیمز</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            id="item-4"
+            class="hidden h-full overflow-y-auto"
+            role="tabpanel"
+            aria-labelledby="tab-item-4"
+          >
+            <div class="h-full flex flex-col items-center justify-center">
+              <div class="w-full grid grid-cols-1 gap-8 mb-4">
+                <a
+                  href="#"
+                  class="flex items-center justify-between bg-[#232D3B] rounded-xl px-4"
+                >
+                  <div class="flex flex-col text-xs items-center gap-1 py-4">
+                    <img
+                      src="../../public/images/game-awards.png"
+                      alt="Image"
+                    />
+                    <span>برندگان بازی سال</span>
+                    <span>2025 - 2010</span>
+                  </div>
+                  <div class="-mt-10">
+                    <img src="../../public/images/awards-1.png" alt="Image" />
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="flex items-center justify-between bg-[#232D3B] rounded-xl px-4"
+                >
+                  <div class="flex flex-col items-center text-xs gap-1 py-4">
+                    <img
+                      src="../../public/images/game-awards.png"
+                      alt="Image"
+                    />
+                    <span>برندگان بازی سال</span>
+                    <span>2025 - 2010</span>
+                  </div>
+                  <div class="-mt-10">
+                    <img src="../../public/images/awards-2.png" alt="Image" />
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="flex items-center justify-between bg-[#232D3B] rounded-xl px-4"
+                >
+                  <div class="flex flex-col items-center text-xs gap-1 py-4">
+                    <img
+                      src="../../public/images/game-awards.png"
+                      alt="Image"
+                    />
+                    <span>برندگان بازی سال</span>
+                    <span>2025 - 2010</span>
+                  </div>
+                  <div class="-mt-10">
+                    <img src="../../public/images/awards-3.png" alt="Image" />
+                  </div>
+                </a>
+              </div>
+              <div class="flex flex-col gap-5">
+                <div class="flex items-center justify-between selected-wrap">
+                  <div class="text-center w-[38%]">
+                    <span class="font-bold text-xs"
+                      >بازی ها منتخب پلی استیشن</span
+                    >
+                  </div>
+                  <div>
+                    <img src="../../public/images/selected.png" alt="Image" />
+                  </div>
+                </div>
+                <div
+                  class="w-full py-4 flex items-center justify-center rounded-xl bg-[#232D3B]"
+                >
+                  <img src="../../public/images/bafta.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="item-5"
+            class="hidden h-full pl-5 overflow-y-auto"
+            role="tabpanel"
+            aria-labelledby="tab-item-5"
+          >
+            <div class="grid grid-cols-2 gap-[6px]">
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-assassin.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">اساسینز کرید</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-callof.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">ندای وظیفه</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-evil.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">رزیدنت ایول</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-battlefield.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">بتلفیلد</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-dark-souls.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">دارک سولز</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-final-fantasy.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">فاینال فانتزی</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-devil-mac-cry.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">دویل می کرای</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-nfs.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">جنون سرعت</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-gta.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">جی تی ای</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-farcry.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">فارکرای</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-dead.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">جزیره‌ی مردگان</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-fallout.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">فال اوت</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-balder.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">بالدرگیت</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-monster.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">شکارچیان هیولا</span>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="flex flex-col items-center h-[110px] w-full bg-[#232D3B] rounded-xl px-3"
+              >
+                <div class="h-2/3 flex items-center justify-center">
+                  <img
+                    src="../../public/images/franchise-star-war.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="h-1/3">
+                  <span class="text-xs font-semibold">جنگ ستارگان</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            id="item-6"
+            class="hidden h-full overflow-y-auto"
+            role="tabpanel"
+            aria-labelledby="tab-item-6"
+          >
+            <div class="flex items-center justify-center h-full">
+              <div class="flex flex-col gap-10">
+                <a
+                  href="#"
+                  class="subscription-wrap !pb-3 flex-col essential font-bold"
+                >
+                  <div class="-mt-14 mb-3">
+                    <img
+                      src="../../public/images/subscription-plus.png"
+                      alt="Image"
+                    />
+                  </div>
+                  <div class="flex flex-col items-center gap-2">
+                    <span>خرید اشتراک پلاس اسنشیال</span>
+                    <span>Essential</span>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="subscription-wrap !pb-3 flex-col extra font-bold"
+                >
+                  <div class="-mt-14 mb-3">
+                    <img
+                      src="../../public/images/subscription-plus.png"
+                      alt="Image"
+                    />
+                  </div>
+                  <div class="flex flex-col items-center gap-2">
+                    <span class="text-[#242424]">خرید اشتراک پلاس اکسترا</span>
+                    <span class="text-[#242424]">Extra</span>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="subscription-wrap !pb-3 flex-col premium font-bold"
+                >
+                  <div class="-mt-14 mb-3">
+                    <img
+                      src="../../public/images/subscription-plus.png"
+                      alt="Image"
+                    />
+                  </div>
+                  <div class="flex flex-col items-center gap-2">
+                    <span class="text-[#FCB800]">خرید اشتراک پلاس پرمیوم</span>
+                    <span class="text-[#FCB800]">Premium</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            id="item-7"
+            class="hidden h-full overflow-y-auto"
+            role="tabpanel"
+            aria-labelledby="tab-item-7"
+          >
+            <div class="w-full">
+              <div class="grid grid-cols-2 gap-5">
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+                <a href="#" class="block w-full">
+                  <img
+                    src="../../public/images/gift-img.png"
+                    alt="Image"
+                    class="w-full"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            id="item-8"
+            class="hidden h-full overflow-y-auto"
+            role="tabpanel"
+            aria-labelledby="tab-item-8"
+          >
+            <div class="w-full">
+              <div class="grid grid-cols-2 gap-3">
+                <a
+                  href="#"
+                  class="w-full h-[150px] flex flex-col items-center justify-center gap-2 bg-[#232D3B] rounded-xl"
+                >
+                  <img
+                    src="../../public/images/support-faq.png"
+                    alt="Image"
+                    class="w-[70px]"
+                  />
+                  <span>سوالات متداول</span>
+                </a>
+                <a
+                  href="#"
+                  class="w-full h-[150px] flex flex-col items-center justify-center gap-4 bg-[#232D3B] rounded-xl"
+                >
+                  <img
+                    src="../../public/images/Support-Icon.png"
+                    alt="Image"
+                    class="w-[70px]"
+                  />
+                  <span>تیکت و پشتیبانی</span>
+                </a>
+                <a href="#" class="relative h-[150px] w-full flex">
+                  <img
+                    src="../../public/images/support-practice.png"
+                    alt="Image"
+                    class="w-full rounded-xl object-cover"
+                  />
+                  <div class="absolute bottom-8 left-1/2 -translate-x-1/2">
+                    <span>آموزش ها</span>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="w-full h-[150px] flex flex-col items-center justify-center gap-4 bg-[#232D3B] rounded-xl"
+                >
+                  <img
+                    src="../../public/images/support-customer.png"
+                    alt="Image"
+                    class="w-[70px]"
+                  />
+                  <span>سوالات متداول</span>
+                </a>
+                <div
+                  class="relative z-20 w-full h-[150px] flex flex-col items-center justify-center gap-4 bg-[#232D3B] rounded-xl"
+                >
+                  <div class="flex flex-col gap-2">
+                    <div class="flex items-center gap-2">
+                      <a href="#" class="social youtube">
+                        <img
+                          src="../../public/images/youtube.svg"
+                          alt="Instagram"
+                        />
+                      </a>
+                      <a href="#" class="social aparat">
+                        <img
+                          src="../../public/images/aparat.svg"
+                          alt="Instagram"
+                        />
+                      </a>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <a href="#" class="social insta">
+                        <img
+                          src="../../public/images/instagram.svg"
+                          alt="Instagram"
+                        />
+                      </a>
+                      <a href="#" class="social telegram">
+                        <img
+                          src="../../public/images/telegram.svg"
+                          alt="Instagram"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="block relative w-full h-[150px]">
+                  <img
+                    src="../../public/images/support-buy.png"
+                    alt="Image"
+                    class="w-full h-full"
+                  />
+                  <div
+                    class="absolute w-full text-center bottom-3 left-1/2 -translate-x-1/2"
+                  >
+                    <span class="text-xs">قوانین و راهنمای خرید</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- SearchModal -->
+    <div
+      id="search"
+      class="modal hidden fixed inset-0 w-full h-screen bg-black bg-opacity-50 flex items-center justify-center z-50"
+    >
+      <div
+        class="modal-content search-modal-wrapper bg-[#15202B] rounded-lg shadow-lg max-w-md w-full h-full p-6 relative transition-all duration-300 transform scale-95 opacity-0"
+      >
+        <button
+          class="close-modal absolute top-4 left-4 text-gray-500 hover:text-red-600 text-xl"
+        >
+          <img src="../../public/images/closed-modal.svg" alt="بستن" />
+        </button>
+        <form class="mt-[40px]">
+          <div class="search-mobile p-1">
+            <input
+              class="bg-transparent w-full flex-1 placeholder:text-xs indent-3 outline-none placeholder:text-white"
+              placeholder="جستجو کنید ...."
+            />
+            <button
+              class="w-9 h-9 bg-[#ffffff1a] rounded-full flex items-center justify-center"
+              type="submit"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="18"
+                viewBox="0 0 19 18"
+                fill="none"
+              >
+                <path
+                  d="M18.1422 16.2349L14.7679 12.8706C15.8566 11.4836 16.4473 9.77092 16.4451 8.00773C16.4451 6.43747 15.9795 4.90247 15.1071 3.59685C14.2347 2.29123 12.9948 1.27362 11.544 0.672711C10.0933 0.0717994 8.49697 -0.0854265 6.95688 0.220916C5.4168 0.527258 4.00214 1.28341 2.8918 2.39375C1.78146 3.50409 1.0253 4.91875 0.718962 6.45884C0.41262 7.99892 0.569846 9.59526 1.17076 11.046C1.77167 12.4967 2.78928 13.7367 4.0949 14.6091C5.40052 15.4815 6.93552 15.9471 8.50577 15.9471C10.269 15.9493 11.9817 15.3586 13.3686 14.2699L16.7329 17.6441C16.8252 17.7371 16.935 17.811 17.0559 17.8614C17.1768 17.9117 17.3065 17.9377 17.4376 17.9377C17.5686 17.9377 17.6983 17.9117 17.8192 17.8614C17.9402 17.811 18.0499 17.7371 18.1422 17.6441C18.2352 17.5519 18.309 17.4421 18.3594 17.3212C18.4098 17.2002 18.4357 17.0705 18.4357 16.9395C18.4357 16.8085 18.4098 16.6788 18.3594 16.5579C18.309 16.4369 18.2352 16.3272 18.1422 16.2349ZM2.55125 8.00773C2.55125 6.83003 2.90048 5.67879 3.55477 4.69957C4.20906 3.72036 5.13903 2.95715 6.22708 2.50647C7.31512 2.05578 8.51238 1.93786 9.66744 2.16762C10.8225 2.39738 11.8835 2.96449 12.7163 3.79724C13.549 4.63 14.1161 5.69099 14.3459 6.84606C14.5756 8.00112 14.4577 9.19838 14.007 10.2864C13.5564 11.3745 12.7931 12.3044 11.8139 12.9587C10.8347 13.613 9.68347 13.9623 8.50577 13.9623C6.92654 13.9623 5.41198 13.3349 4.29529 12.2182C3.1786 11.1015 2.55125 9.58697 2.55125 8.00773Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </form>
+        <div class="search-game-founded hidden flex-col gap-4 mt-6">
+          <a href="#" class="flex gap-4 border-b border-[#3A3F4B] pb-3">
+            <div class="w-[107px] h-[107px]">
+              <img
+                src="../../public/img/basket-1.svg"
+                alt="Image"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div class="h-[100px] flex flex-col justify-between w-full flex-1">
+              <span>خرید اکانت قانونی و اشتراکی Assassin’s Crees Shadows </span>
+              <div class="flex items-center justify-between">
+                <img src="../../public/images/single-ps5.svg" alt="Image" />
+                <div
+                  class="w-[68px] h-[24px] flex items-center justify-center bg-[#0066ff33] rounded-full text-[#06F] text-xs"
+                >
+                  موجود
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="flex gap-4 border-b border-[#3A3F4B] pb-3">
+            <div class="w-[107px] h-[107px]">
+              <img
+                src="../../public/img/basket-1.svg"
+                alt="Image"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div class="h-[100px] flex flex-col justify-between w-full flex-1">
+              <span>خرید اکانت قانونی و اشتراکی Assassin’s Crees Shadows </span>
+              <div class="flex items-center justify-between">
+                <img src="../../public/images/single-ps5.svg" alt="Image" />
+                <div
+                  class="w-[68px] h-[24px] flex items-center justify-center bg-[#0066ff33] rounded-full text-[#06F] text-xs"
+                >
+                  موجود
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="flex gap-4 border-b border-[#3A3F4B] pb-3">
+            <div class="w-[107px] h-[107px]">
+              <img
+                src="../../public/img/basket-1.svg"
+                alt="Image"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div class="h-[100px] flex flex-col justify-between w-full flex-1">
+              <span>خرید اکانت قانونی و اشتراکی Assassin’s Crees Shadows </span>
+              <div class="flex items-center justify-between">
+                <img src="../../public/images/single-ps5.svg" alt="Image" />
+                <div
+                  class="w-[68px] h-[24px] flex items-center justify-center bg-[#ffffff33] rounded-full text-white text-xs"
+                >
+                  ناموجود
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="flex search-game flex-col items-center gap-3 justify-center mt-10"
+        >
+          <img src="../../public/images/search-img.png" alt="Image" />
+          <span class="text-xl font-medium block mb-2"
+            >بازی مورد نظر خود را جستجو کنید</span
+          >
+          <img src="../../public/images/landing-img-4-mob.png" alt="Image" />
+        </div>
+      </div>
+    </div>
+
+    <!--- Humber Backdrop -->
+    <div class="menu-backdrop fixed inset-0 bg-black bg-opacity-50 hidden" style="z-index: 100;"></div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-navigation flex lg:hidden">
+      <div class="w-full flex items-center justify-between">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="23"
+            viewBox="0 0 24 23"
+            fill="none"
+          >
+            <path
+              d="M10.0015 16.0697C9.58726 16.0697 9.25147 16.4054 9.25147 16.8197C9.25147 17.2339 9.58726 17.5697 10.0015 17.5697H14.0015C14.4157 17.5697 14.7515 17.2339 14.7515 16.8197C14.7515 16.4054 14.4157 16.0697 14.0015 16.0697H10.0015Z"
+              fill="white"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.2123 0.253865C12.0718 0.248712 11.9312 0.248712 11.7907 0.253865C10.8633 0.287886 10.0282 0.603234 9.11262 1.12818C8.22035 1.63974 7.19311 2.38608 5.88973 3.33305L5.81888 3.38453C4.51548 4.33149 3.48822 5.07783 2.72597 5.76835C1.94378 6.47693 1.38582 7.17368 1.06689 8.04515C1.01857 8.17717 0.975118 8.31091 0.936608 8.44611C0.682388 9.33861 0.72425 10.2303 0.940561 11.2633C1.15136 12.27 1.54374 13.4776 2.0416 15.0098L2.06866 15.0931C2.5665 16.6253 2.95887 17.8329 3.38004 18.7712C3.81223 19.7341 4.30246 20.4801 5.03273 21.0527C5.14336 21.1394 5.25712 21.2221 5.37381 21.3005C6.14407 21.8181 7.00501 22.0538 8.05431 22.1673C9.07686 22.2779 10.3466 22.2779 11.9577 22.2779H12.0453C13.6563 22.2779 14.9261 22.2779 15.9486 22.1673C16.9979 22.0538 17.8589 21.8181 18.6291 21.3005C18.7458 21.2221 18.8596 21.1394 18.9702 21.0527C19.7005 20.4801 20.1907 19.7341 20.6229 18.7712C21.0441 17.8329 21.4365 16.6253 21.9343 15.093L21.9614 15.0097C22.4592 13.4776 22.8516 12.2699 23.0624 11.2633C23.2787 10.2303 23.3206 9.33861 23.0663 8.44611C23.0278 8.31091 22.9844 8.17717 22.9361 8.04515C22.6171 7.17368 22.0592 6.47693 21.277 5.76835C20.5147 5.07782 19.4875 4.33149 18.1841 3.38452L18.1132 3.33303C16.8098 2.38607 15.7826 1.63973 14.8903 1.12818C13.9747 0.603234 13.1396 0.287886 12.2123 0.253865ZM11.8457 1.75286C11.9495 1.74905 12.0534 1.74905 12.1573 1.75286C12.7527 1.7747 13.3458 1.97167 14.1443 2.42948C14.958 2.89603 15.9204 3.59396 17.267 4.57232C18.6136 5.55068 19.5747 6.25026 20.2699 6.88002C20.9521 7.49798 21.3227 8.00112 21.5274 8.56067C21.5631 8.65824 21.5952 8.75709 21.6237 8.85703C21.7869 9.43007 21.7829 10.055 21.5942 10.9558C21.402 11.874 21.0356 13.0049 20.5212 14.5879C20.0069 16.1709 19.6386 17.3012 19.2544 18.157C18.8775 18.9967 18.5135 19.5046 18.0446 19.8723C17.9629 19.9364 17.8788 19.9975 17.7925 20.0555C17.298 20.3878 16.7024 20.577 15.7873 20.676C14.8547 20.7768 13.666 20.7779 12.0015 20.7779C10.337 20.7779 9.1482 20.7768 8.21561 20.676C7.30052 20.577 6.70496 20.3878 6.2104 20.0555C6.12416 19.9975 6.04007 19.9364 5.9583 19.8723C5.48942 19.5046 5.12542 18.9967 4.74851 18.157C4.36439 17.3012 3.99607 16.1709 3.48171 14.5879C2.96736 13.0049 2.60097 11.874 2.40872 10.9558C2.22007 10.055 2.216 9.43007 2.37923 8.85703C2.40769 8.7571 2.43981 8.65824 2.47552 8.56067C2.68029 8.00112 3.05089 7.49798 3.73303 6.88002C4.42822 6.25026 5.38938 5.55068 6.73597 4.57232C8.08257 3.59396 9.04492 2.89603 9.85869 2.42948C10.6572 1.97167 11.2502 1.7747 11.8457 1.75286Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <button class="menu-toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="31"
+            viewBox="0 0 26 31"
+            fill="none"
+          >
+            <path
+              d="M7.66667 20.3333C7.11438 20.3333 6.66667 20.781 6.66667 21.3333C6.66667 21.8856 7.11438 22.3333 7.66667 22.3333H18.3333C18.8856 22.3333 19.3333 21.8856 19.3333 21.3333C19.3333 20.781 18.8856 20.3333 18.3333 20.3333H7.66667Z"
+              fill="#FAFAFA"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.7843 0.333304C10.5092 0.332946 9.12097 0.332728 7.96427 0.70856C5.63025 1.46693 3.80034 3.29684 3.04197 5.63086C3.00693 5.73872 2.97528 5.84775 2.94669 5.9585C2.38372 6.39833 1.88464 6.91496 1.4642 7.49364C0.683099 8.56874 0.333342 9.82791 0.164971 11.382C-1.93715e-05 12.9048 -1.07113e-05 14.8243 1.7645e-07 17.273V17.3937C-1.07113e-05 19.8424 -1.93715e-05 21.7618 0.164971 23.2847C0.333342 24.8387 0.683099 26.0979 1.4642 27.173C1.93708 27.8239 2.50945 28.3962 3.16031 28.8691C4.23541 29.6502 5.49459 30 7.04864 30.1684C8.57146 30.3333 10.4909 30.3333 12.9395 30.3333H13.0604C15.509 30.3333 17.4285 30.3333 18.9514 30.1684C20.5054 30 21.7646 29.6502 22.8397 28.8691C23.4905 28.3962 24.0629 27.8239 24.5358 27.173C25.3169 26.0979 25.6667 24.8387 25.835 23.2847C26 21.7619 26 19.8424 26 17.3938V17.273C26 14.8243 26 12.9048 25.835 11.382C25.6667 9.82791 25.3169 8.56874 24.5358 7.49364C24.1154 6.91502 23.6164 6.39844 23.0535 5.95865C23.0249 5.84785 22.9932 5.73876 22.9582 5.63086C22.1998 3.29684 20.3699 1.46693 18.0359 0.70856C16.8792 0.332728 15.4909 0.332946 13.2159 0.333304H12.7843ZM7.13091 4.48958C6.63252 4.5412 6.16407 4.6108 5.72203 4.70653C6.41822 3.7319 7.41496 2.98997 8.58231 2.61067C9.39792 2.34566 10.4405 2.33333 13.0001 2.33333C15.5596 2.33333 16.6022 2.34566 17.4178 2.61067C18.5852 2.98997 19.5819 3.73192 20.2781 4.70657C19.8361 4.61083 19.3676 4.54122 18.8692 4.4896C17.3604 4.33331 15.4649 4.33332 13.0571 4.33333H12.9429C10.5351 4.33332 8.63972 4.33331 7.13091 4.48958ZM4.40926 7.36357C5.08694 6.89545 5.95862 6.6217 7.33695 6.47894C8.73077 6.33458 10.5229 6.33333 13 6.33333C15.4772 6.33333 17.2693 6.33458 18.6632 6.47895C20.0415 6.62172 20.9132 6.8955 21.5909 7.36366C21.5939 7.36579 21.597 7.36792 21.6001 7.37005C21.6216 7.38498 21.6429 7.40015 21.6641 7.41556C22.1452 7.76508 22.5682 8.18814 22.9178 8.66921C23.4099 9.34655 23.6967 10.2135 23.8467 11.5974C23.9986 13 24 14.8112 24 17.3333C24 19.8554 23.9986 21.6667 23.8467 23.0693C23.6967 24.4531 23.4099 25.3201 22.9178 25.9974C22.5682 26.4785 22.1452 26.9016 21.6641 27.2511C20.9868 27.7432 20.1198 28.0301 18.7359 28.18C17.3333 28.332 15.5221 28.3333 13 28.3333C10.4779 28.3333 8.66666 28.332 7.26406 28.18C5.88018 28.0301 5.01322 27.7432 4.33588 27.2511C3.85481 26.9016 3.43176 26.4785 3.08224 25.9974C2.59012 25.3201 2.30327 24.4531 2.15334 23.0693C2.00137 21.6667 2 19.8554 2 17.3333C2 14.8112 2.00137 13 2.15334 11.5974C2.30327 10.2135 2.59012 9.34655 3.08224 8.66921C3.43176 8.18814 3.85481 7.76508 4.33588 7.41556C4.36018 7.39791 4.38463 7.38059 4.40926 7.36357Z"
+              fill="#FAFAFA"
+            />
+          </svg>
+        </button>
+        <button
+          data-open-modal="search"
+          class="search-wrap w-[60px] h-[60px] flex items-center justify-center border border-[#47494d] rounded-full"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+          >
+            <path
+              d="M10.2812 5.8028C10.7756 5.7245 11.1129 5.26028 11.0346 4.76594C10.9563 4.27159 10.492 3.93432 9.9977 4.01261C7.02474 4.48348 4.69309 6.81513 4.22222 9.7881C4.14392 10.2824 4.4812 10.7467 4.97554 10.825C5.46989 10.9033 5.93411 10.566 6.0124 10.0716C6.36044 7.87423 8.08383 6.15083 10.2812 5.8028Z"
+              fill="#FAFAFA"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.293 0.302078C5.78636 0.302078 0.511719 5.57672 0.511719 12.0833C0.511719 18.5899 5.78636 23.8646 12.293 23.8646C18.7996 23.8646 24.0742 18.5899 24.0742 12.0833C24.0742 5.57672 18.7996 0.302078 12.293 0.302078ZM2.32422 12.0833C2.32422 6.57774 6.78738 2.11458 12.293 2.11458C17.7986 2.11458 22.2617 6.57774 22.2617 12.0833C22.2617 17.5889 17.7986 22.0521 12.293 22.0521C6.78738 22.0521 2.32422 17.5889 2.32422 12.0833Z"
+              fill="#FAFAFA"
+            />
+            <path
+              d="M22.6005 21.1093C22.2466 20.7554 21.6728 20.7554 21.3189 21.1093C20.965 21.4632 20.965 22.037 21.3189 22.3909L26.1521 27.2242C26.506 27.5781 27.0798 27.5781 27.4337 27.2242C27.7876 26.8703 27.7877 26.2965 27.4337 25.9426L22.6005 21.1093Z"
+              fill="#FAFAFA"
+            />
+          </svg>
+        </button>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="31"
+            viewBox="0 0 30 31"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M14.9964 0.333328C11.1011 0.333328 7.88468 3.23799 7.39441 7L6.51098 6.99999C5.1834 6.99995 4.08247 6.99992 3.21846 7.12064C2.31014 7.24756 1.49396 7.52779 0.873254 8.22128C0.252548 8.91478 0.0641612 9.75691 0.0383298 10.6737C0.0137585 11.5458 0.135369 12.6399 0.282016 13.9594L0.692535 17.6541C0.999243 20.4146 1.24012 22.5826 1.64926 24.2677C2.06862 25.9949 2.69234 27.3429 3.85027 28.3793C5.00932 29.4167 6.42462 29.8871 8.19714 30.1129C9.92772 30.3334 12.1253 30.3333 14.925 30.3333H15.0677C17.8675 30.3333 20.0651 30.3334 21.7956 30.1129C23.5682 29.8871 24.9835 29.4167 26.1425 28.3793C27.3004 27.3429 27.9242 25.9949 28.3435 24.2677C28.7526 22.5826 28.9935 20.4146 29.3002 17.6542L29.7108 13.9594C29.8574 12.6399 29.979 11.5457 29.9544 10.6737C29.9286 9.75691 29.7402 8.91478 29.1195 8.22128C28.4988 7.52779 27.6826 7.24756 26.7743 7.12064C25.9103 6.99992 24.8094 6.99995 23.4818 6.99999L22.5984 7C22.1084 3.23831 18.8916 0.333328 14.9964 0.333328ZM14.9964 2.33333C17.7848 2.33333 20.1028 4.34732 20.5751 7H9.41759C9.8897 4.3476 12.208 2.33333 14.9964 2.33333ZM2.36351 9.55513C2.53779 9.36041 2.81433 9.19654 3.49522 9.1014C4.20447 9.0023 5.16445 9 6.58476 9H23.408C24.8283 9 25.7883 9.0023 26.4975 9.1014C27.1784 9.19654 27.455 9.36041 27.6293 9.55513C27.8035 9.74984 27.9359 10.0428 27.9552 10.73C27.9754 11.4459 27.8717 12.4002 27.7148 13.8119L27.3204 17.362C27.004 20.2093 26.7754 22.2497 26.4 23.7958C26.0313 25.3143 25.5491 26.2263 24.8087 26.8891C24.0693 27.5508 23.1053 27.9299 21.5429 28.129C19.9533 28.3314 17.8831 28.3333 14.9964 28.3333C12.1097 28.3333 10.0395 28.3314 8.44985 28.129C6.8875 27.9299 5.92347 27.5508 5.18412 26.8891C4.44365 26.2263 3.96146 25.3143 3.59279 23.7958C3.21741 22.2497 2.98875 20.2093 2.67239 17.362L2.27793 13.8119C2.12109 12.4002 2.01737 11.4459 2.03754 10.73C2.0569 10.0428 2.18923 9.74984 2.36351 9.55513Z"
+              fill="#FAFAFA"
+            />
+            <path
+              d="M22.9964 13.3333C22.9964 14.0697 22.3994 14.6667 21.663 14.6667C20.9266 14.6667 20.3297 14.0697 20.3297 13.3333C20.3297 12.5969 20.9266 12 21.663 12C22.3994 12 22.9964 12.5969 22.9964 13.3333Z"
+              fill="#FAFAFA"
+            />
+            <path
+              d="M9.66302 13.3333C9.66302 14.0697 9.06607 14.6667 8.32969 14.6667C7.59331 14.6667 6.99636 14.0697 6.99636 13.3333C6.99636 12.5969 7.59331 12 8.32969 12C9.06607 12 9.66302 12.5969 9.66302 13.3333Z"
+              fill="#FAFAFA"
+            />
+          </svg>
+        </a>
+        <button data-open-modal="loginModal">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10.9989 3.25006C8.37558 3.25006 6.24894 5.3767 6.24894 8.00006C6.24894 10.6234 8.37558 12.7501 10.9989 12.7501C13.6223 12.7501 15.7489 10.6234 15.7489 8.00006C15.7489 5.3767 13.6223 3.25006 10.9989 3.25006ZM7.74894 8.00006C7.74894 6.20513 9.20401 4.75006 10.9989 4.75006C12.7939 4.75006 14.2489 6.20513 14.2489 8.00006C14.2489 9.79498 12.7939 11.2501 10.9989 11.2501C9.20401 11.2501 7.74894 9.79498 7.74894 8.00006Z"
+              fill="#FAFAFA"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.2841 0.0306333C11.0941 0.0212017 10.9038 0.0212017 10.7138 0.0306333C9.98045 0.0670436 9.30528 0.280134 8.55263 0.629409C7.8199 0.969435 6.96847 1.46101 5.8913 2.08293L5.83029 2.11815C4.75312 2.74005 3.90168 3.23162 3.24085 3.69617C2.56204 4.17335 2.03991 4.65151 1.6417 5.26842C1.53855 5.42822 1.44339 5.59304 1.35657 5.76227C1.02142 6.41559 0.868384 7.10684 0.794537 7.9333C0.722645 8.73787 0.72265 9.72103 0.722656 10.9648V11.0353C0.72265 12.2791 0.722645 13.2622 0.794537 14.0668C0.868384 14.8933 1.02142 15.5845 1.35657 16.2378C1.44339 16.4071 1.53855 16.5719 1.6417 16.7317C2.12997 17.4881 2.8067 18.0381 3.72872 18.6309C4.30476 19.0012 5.00557 19.4058 5.84648 19.8913L5.89128 19.9172C6.96846 20.5391 7.8199 21.0307 8.55263 21.3707C9.30528 21.72 9.98045 21.9331 10.7138 21.9695C10.9038 21.9789 11.0941 21.9789 11.2841 21.9695C12.0174 21.9331 12.6926 21.72 13.4452 21.3707C14.178 21.0307 15.0294 20.5391 16.1066 19.9172L16.152 19.8909C17.0009 19.4009 17.707 18.9932 18.2863 18.6198C19.1995 18.0313 19.8709 17.4835 20.3562 16.7317C20.4593 16.5719 20.5545 16.4071 20.6413 16.2378C20.9764 15.5845 21.1295 14.8933 21.2033 14.0668C21.2752 13.2623 21.2752 12.2791 21.2752 11.0353V10.9648C21.2752 9.72106 21.2752 8.73786 21.2033 7.9333C21.1295 7.10684 20.9764 6.41559 20.6413 5.76227C20.5545 5.59304 20.4593 5.42822 20.3562 5.26842C19.958 4.65151 19.4358 4.17335 18.757 3.69617C18.0962 3.23162 17.2448 2.74005 16.1676 2.11815L16.1066 2.08292C15.0294 1.46101 14.178 0.969435 13.4452 0.629409C12.6926 0.280134 12.0174 0.0670436 11.2841 0.0306333ZM10.7882 1.52879C10.9286 1.52182 11.0693 1.52182 11.2097 1.52879C11.6825 1.55226 12.1619 1.68753 12.8138 1.99004C13.4788 2.2986 14.2727 2.75618 15.3871 3.39958C16.5015 4.04297 17.2947 4.50174 17.8944 4.9233C18.4823 5.3366 18.8392 5.68417 19.0959 6.08191C19.1722 6.20003 19.2425 6.32185 19.3067 6.44693C19.5228 6.86815 19.6453 7.35098 19.7093 8.0668C19.7745 8.79692 19.7752 9.71327 19.7752 11.0001C19.7752 12.2868 19.7745 13.2032 19.7093 13.9333C19.6453 14.6491 19.5228 15.132 19.3067 15.5532C19.2425 15.6783 19.1722 15.8001 19.0959 15.9182C18.8911 16.2354 18.6236 16.5199 18.2259 16.8315C17.4382 15.2991 15.8418 14.2501 13.9989 14.2501H7.99894C6.15612 14.2501 4.55972 15.299 3.77198 16.8315C3.37433 16.5199 3.10676 16.2355 2.90195 15.9182C2.82571 15.8001 2.75537 15.6783 2.6912 15.5532C2.47512 15.132 2.35255 14.6491 2.28858 13.9333C2.22335 13.2032 2.22266 12.2868 2.22266 11.0001C2.22266 9.71327 2.22335 8.79692 2.28858 8.0668C2.35255 7.35098 2.47512 6.86815 2.6912 6.44693C2.75537 6.32185 2.82571 6.20002 2.90195 6.08191C3.15869 5.68417 3.51555 5.3366 4.10348 4.9233C4.70317 4.50174 5.49641 4.04297 6.6108 3.39958C7.72519 2.75618 8.51911 2.2986 9.18404 1.99004C9.83593 1.68753 10.3154 1.55226 10.7882 1.52879ZM13.9989 15.7501C15.321 15.7501 16.4602 16.5399 16.9675 17.6747C16.5228 17.9447 16.0034 18.2447 15.3871 18.6005C14.2727 19.2439 13.4788 19.7015 12.8138 20.0101C12.1619 20.3126 11.6825 20.4479 11.2097 20.4713C11.0693 20.4783 10.9286 20.4783 10.7882 20.4713C10.3154 20.4479 9.83593 20.3126 9.18404 20.0101C8.51911 19.7015 7.72519 19.2439 6.6108 18.6005C5.99452 18.2447 5.47511 17.9447 5.03033 17.6747C5.5377 16.54 6.67685 15.7501 7.99894 15.7501H13.9989Z"
+              fill="#FAFAFA"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+
+    <!--- MegaMenu --->
+    <div
+      class="mega-menu-modal fixed inset-0 w-full h-screen bg-black/40 backdrop-blur-sm transition duration-300 opacity-0 invisible"
+    ></div>
+
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+    <script src="../js/general.js"></script>
+  </body>
+</html>
