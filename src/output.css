@@ -3097,10 +3097,6 @@ video {
   font-weight: 600;
 }
 
-.\!font-light {
-  font-weight: 300 !important;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -6496,6 +6492,10 @@ input[type="number"] {
 @media (min-width: 1280px) {
   .xl\:hidden {
     display: none;
+  }
+
+  .xl\:w-\[320px\] {
+    width: 320px;
   }
 
   .xl\:grid-cols-1 {

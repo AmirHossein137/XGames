@@ -125,6 +125,46 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+    // -------- Scroll Spy (فعالسازی با اسکرول) --------
+  const sections = linksArray
+    .map((l) => document.querySelector(l.getAttribute("href")))
+    .filter(Boolean);
+
+  const OFFSET = 0;
+
+  function setActiveByIndex(idx) {
+    linksArray.forEach((l) => {
+      l.classList.remove("active", "passed");
+      l.parentElement && l.parentElement.classList.remove("actived", "passed");
+    });
+
+    if (idx < 0 || idx >= linksArray.length) return;
+
+    const cur = linksArray[idx];
+    cur.classList.add("active");
+    cur.parentElement && cur.parentElement.classList.add("actived");
+
+    for (let i = 0; i < idx; i++) {
+      linksArray[i].parentElement && linksArray[i].parentElement.classList.add("passed");
+    }
+  }
+
+  let ticking = false;
+  function handleScroll() {
+    const scrollPos = window.scrollY + OFFSET;
+
+    let currentIndex = -1;
+    for (let i = 0; i < sections.length; i++) {
+      if (sections[i].offsetTop <= scrollPos) currentIndex = i;
+      else break;
+    }
+
+    setActiveByIndex(currentIndex);
+  }
+
+  window.addEventListener("scroll", handleScroll);
+
 });
 
 
