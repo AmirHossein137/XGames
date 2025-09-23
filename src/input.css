@@ -492,7 +492,7 @@ label {
 }
 
 .archive input[type="checkbox"]:checked {
-  border-radius: 100%;
+  /* border-radius: 100%; */
   background: rgba(0, 102, 255, 0.25);
   border-color: transparent;
 }
