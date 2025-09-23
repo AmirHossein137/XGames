@@ -175,7 +175,7 @@ html {
 .boxes .articles-navigate .swiper-pagination {
   position: absolute;
   left: 50%;
-  bottom: 97%;
+  bottom: 96%;
   transform: translateX(-50%);
   background-color: #15202b;
   padding: 10px 15px;
